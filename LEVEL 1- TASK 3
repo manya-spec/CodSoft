@@ -1,0 +1,127 @@
+HTML CODE-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="STYLEE2.CSS">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Manya Bist</h1>
+        <p>Turning Ideas into Digital Reality. </p>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="C:\Users\manya\OneDrive\Desktop\For HPWarranty\profile.jpg" alt="Manya bist" class="profile-image">
+        <p>I am currently pursuing a Bachelors degree in Computer Applications (BCA) at Christ University, Delhi, 
+            where I am deepening my knowledge and skills in the field of technology. I completed my schooling 
+         from Bal bharati public school in Noida.<br>
+         I am passionate web developer with of experience in building dynamic and responsive websites and web applications. 
+         My journey in web development started with a fascination for how websites work, and it quickly turned into a full-fledged career.
+         With a strong foundation in front-end and back-end technologies,
+          I love turning ideas into functional, visually appealing digital experiences.</p>
+    </section>
+    
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>C++</li>
+            <li>Mysql</li>
+        </ul>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>MOBILE REPAIRS</h3>
+            <p>This mobile repairs is a full-stack web application designed to help users repair with their automobiles. 
+                It allows users to contact the service or get adviced related to there problem. 
+                The purpose of the project was to build a simple webpage where users can get help easily.</p>
+            <img src="C:\Users\manya\OneDrive\Pictures\Screenshots\mobile repaires.png" width="400" alt="Project 1">
+
+        </div>
+        <div class="project">
+            <h3>Calculator</h3>
+            <p>This is my second project in which I created calculator that performs all mathematical operations.
+                It is very easy to use and is very efficient.
+            </p>
+            <img src="C:\Users\manya\OneDrive\Pictures\Screenshots\calculator.png" width="400" alt="Project 2">
+        </div>
+        <div class="project">
+            <h3>Landing page</h3>
+            <p>This is my 3rd project in which i made a landing page for the company sweetkick,
+            This landing page consists of all the details of the company and all the information a user needs.
+            </p>
+            <img src="C:\Users\manya\OneDrive\Pictures\Screenshots\sweetkick.png" width="400" alt="Project 3">
+        </div>
+    
+    </section>
+    
+    <section id="resume">
+        <h2>Resume</h2>
+        <p><a href="your-resume.pdf" download>Download My Resume</a></p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: Manyabist7@gmail.com</p>
+        <p>Phone: 9319912024</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Manya bist. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+
+CSS CODE-
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #1b0303f8;
+}
+
+header {
+    background: #7f0d44;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    background: hwb(0 98% 2% / 0.76);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.profile-image {
+    width: 150px;
+    border-radius: 70%;
+    text-align: center; 
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+}
